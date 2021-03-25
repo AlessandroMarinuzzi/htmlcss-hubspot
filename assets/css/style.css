@@ -59,8 +59,8 @@ i{
     vertical-align: middle;
 }
 
-i.fa-chevron-down{
-    margin: auto;
+i.fa-chevron-down:not(:last-child){
+    margin-right: 1rem;
 }
 
 .fa-search{
@@ -92,10 +92,13 @@ ___________________________________________________ */
 .first a.language{
     margin:auto 0;
 }
-
-.left_menu span{
-    margin-left: 10px;
+span+a{
+    margin: auto 1rem;
 }
+
+/* .left_menu span{
+    margin-left: 10px;
+} */
 
 .right_menu{
     text-align:right;
@@ -110,6 +113,7 @@ a.empty_button{
 
 .solid.button{
     padding: 0.6rem;
+    margin-right: 0;
     border: 1px solid white;
     border-radius: 5px;
     background-color: #fe775a;
@@ -134,9 +138,6 @@ a.empty_button{
     vertical-align: middle;
 }
 
-.second .right_menu .column_2>a{
-    width: calc(100%/5);
-}
 /* /Second nav bar */
 
 /* Jumbotron */
