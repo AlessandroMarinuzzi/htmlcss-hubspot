@@ -34,7 +34,7 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -51,7 +51,15 @@ body{
 
 a{
     text-decoration: none;
-    margin: auto 1.5rem;
+    margin: auto 10px;
+}
+
+i.fa-chevron-down{
+    margin: auto;
+}
+
+.fa-search{
+    color: #65c6d6;
 }
 /* /Utility classes */
 
@@ -59,12 +67,14 @@ a{
 HEADER
 ___________________________________________________ */
 
+/* first nav bar */
 .first{
     background-color: #f4f9fd;
 }
 .first a{
     color: #364c5e;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .right_menu{
@@ -72,28 +82,37 @@ ___________________________________________________ */
 }
 
 a.empty_button{
-    padding: 0.5rem;
-    border: 1px solid orange;
+    padding: 0.6rem;
+    border: 1px solid #fe775a;
     border-radius: 5px;
-    color:orange
+    color:#fe775a
 }
 
 .solid.button{
-    padding: 0.5rem;
+    padding: 0.6rem;
     border: 1px solid white;
     border-radius: 5px;
-    background-color: orange;
+    background-color: #fe775a;
     color: white;
 }
+/* /first nav bar */
 
-.language::before{
-    content: "\01F30E";
-    margin-right: 3px;
-    
+/* second nav bar */
+.second{
+    background-color: white;
 }
 
-.language::after{
-    content: "\276C";
-    margin-left: 5px;
-    transform: rotatex(90deg);
+.second a{
+    color: #364c5e;
+    font-size: 13px;
+    font-weight: 600;
 }
+
+.second img{
+    vertical-align: middle;
+}
+
+.second .right_menu .column_2>a{
+    width: calc(100%/5);
+}
+/* /Second nav bar */
