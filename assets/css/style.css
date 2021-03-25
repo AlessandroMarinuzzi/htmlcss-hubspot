@@ -71,6 +71,13 @@ ___________________________________________________ */
     text-align:right;
 }
 
+a.empty_button{
+    padding: 0.5rem;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color:orange
+    
+}
 
 .language::before{
     content: "\01F30E";
@@ -81,4 +88,5 @@ ___________________________________________________ */
 .language::after{
     content: "\276C";
     margin-left: 5px;
+    transform: rotatex(90deg);
 }
