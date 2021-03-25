@@ -12,7 +12,7 @@ body{
 /* Debug Rules */
 .dbg header{
     height: 600px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .dbg main{
@@ -116,3 +116,10 @@ a.empty_button{
     width: calc(100%/5);
 }
 /* /Second nav bar */
+
+/* Jumbotron */
+.site_header{
+    background-image: url('.\assets\img\img\jumbotron.png');
+    background-size: contain;
+    
+}
