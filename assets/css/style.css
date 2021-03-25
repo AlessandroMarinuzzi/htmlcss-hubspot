@@ -76,7 +76,14 @@ a.empty_button{
     border: 1px solid orange;
     border-radius: 5px;
     color:orange
-    
+}
+
+.solid.button{
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
 }
 
 .language::before{
