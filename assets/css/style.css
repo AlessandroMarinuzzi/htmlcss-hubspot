@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Debug Rules */
+.dbg header{
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.dbg main{
+    height: 1800px;
+    background-color: cadetblue;
+}
+
+.dbg footer{
+    height:600px;
+    background-color: cornflowerblue;
+}
+/* /Debug Rules */
+
+/* Utility classes */
+
+/* /Utility classes */
+
+
