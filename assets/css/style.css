@@ -52,6 +52,11 @@ body{
 a{
     text-decoration: none;
     margin: auto 10px;
+    line-height: 75px;
+}
+
+i{
+    vertical-align: middle;
 }
 
 i.fa-chevron-down{
@@ -84,6 +89,14 @@ ___________________________________________________ */
     font-weight: 600;
 }
 
+.first a.language{
+    margin:auto 0;
+}
+
+.left_menu span{
+    margin-left: 10px;
+}
+
 .right_menu{
     text-align:right;
 }
@@ -103,7 +116,9 @@ a.empty_button{
     color: white;
 }
 /* /first nav bar */
-
+.site_header hr{
+    color: #d3d8dc;
+}
 /* second nav bar */
 .second{
     background-color: white;
@@ -115,7 +130,7 @@ a.empty_button{
     font-weight: 600;
 }
 
-.second img{
+.logo{
     vertical-align: middle;
 }
 
@@ -131,30 +146,51 @@ a.empty_button{
     background-image: url(../img/img/jumbotron.png);
     background-size: 1400px;
     position: relative;
+    border-bottom: 2px solid #33475b;
 }
 
 .box{
-    width: 45%;
+    width: 40%;
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 10%;
 }
 
 .jumbotron .box .title{
     font-size: 40px;
     margin-bottom:20px ;
+    line-height: 40px;
 }
 
 .jumbotron .box p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 13px;
 }
 
 .jumbotron .box a{
     margin-left: 0%;
+    padding: 1.5rem;
+    font-size: 13px;
 }
 
 .jumbotron .box p.j_small{
-    font-size: 12px;
-    margin-top: 30px;
-
+    font-size: 10px;
+    margin-top: 15px;
 }
+/* /Jumbotron */
+/* ______________________________________________
+/HEADER
+___________________________________________________ */
+
+hr#spacebar{
+    display: block;
+    width: 100%;
+    height: 75px;
+    background-color: #afebe4;
+    border-bottom: 2px solid #33475b;
+}
+
+/* ________________________________________________________
+MAIN
+____________________________________________________________ */
