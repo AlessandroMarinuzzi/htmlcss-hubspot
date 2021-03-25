@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #3b5062;
+}
+
 /* Debug Rules */
 .dbg header{
     height: 600px;
@@ -22,7 +27,58 @@
 /* /Debug Rules */
 
 /* Utility classes */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.bar{
+    height: 75px;
+    width: 100%;
+}
+
+.column_2{
+    line-height: 75px;
+    width: 50%;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    margin: auto 1.5rem;
+}
 /* /Utility classes */
 
+/* ______________________________________________
+HEADER
+___________________________________________________ */
 
+.first{
+    background-color: #f4f9fd;
+}
+.first a{
+    color: #364c5e;
+    font-size: 14px;
+}
+
+.right_menu{
+    text-align:right;
+}
+
+
+.language::before{
+    content: "\01F30E";
+    margin-right: 3px;
+    
+}
+
+.language::after{
+    content: "\276C";
+    margin-left: 5px;
+}
