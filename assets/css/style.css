@@ -11,7 +11,7 @@ body{
 
 /* Debug Rules */
 .dbg header{
-    height: 600px;
+    height: 750px;
     /* background-color: aquamarine; */
 }
 
@@ -60,6 +60,13 @@ i.fa-chevron-down{
 
 .fa-search{
     color: #65c6d6;
+}
+
+.button{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #fe775a;
+    color: white;
 }
 /* /Utility classes */
 
@@ -118,8 +125,36 @@ a.empty_button{
 /* /Second nav bar */
 
 /* Jumbotron */
-.site_header{
-    background-image: url('.\assets\img\img\jumbotron.png');
-    background-size: contain;
-    
+.jumbotron{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/img/jumbotron.png);
+    background-size: 1400px;
+    position: relative;
+}
+
+.box{
+    width: 45%;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+
+.jumbotron .box .title{
+    font-size: 40px;
+    margin-bottom:20px ;
+}
+
+.jumbotron .box p{
+    margin-bottom: 30px;
+}
+
+.jumbotron .box a{
+    margin-left: 0%;
+}
+
+.jumbotron .box p.j_small{
+    font-size: 12px;
+    margin-top: 30px;
+
 }
