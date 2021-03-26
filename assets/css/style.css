@@ -16,10 +16,10 @@ body{
     /* background-color: aquamarine; */
 }
 
-.dbg main{
+/* .dbg main{
     height: 1800px;
     background-color: #f4f9fd;
-}
+} */
 
 .dbg footer{
     height:600px;
@@ -212,7 +212,7 @@ MAIN
 ____________________________________________________________ */
 
 /* Rubik Section */
-.pannel .small.container{
+ .small.container{
     width: 60%;
     margin:auto;
 }
@@ -318,7 +318,8 @@ span.voice{
 
 /* Columns and cards */
 .card_pic{
-    width: 30%;
+    height:100px;
+    width: auto;
     margin: 40px auto 20px;
     display: block;
 }
@@ -360,8 +361,51 @@ span.voice{
     text-align: center;
     font-size: 13px;
 }
-
-
 /* /Columns and cards */
 
+/* 2nd bg_blue pannel */
+section.pannel_blue{
+    color: white;
+    background-image: linear-gradient(180deg, #00BAA8 0%, rgba(0, 186, 168, 0) 100%);
+    text-align: center;
+    margin-top: 50px;
+}
 
+.pannel_blue .container h2{
+    margin:50px;
+    margin-bottom: 30px;
+}
+
+.pannel_blue .container p{
+    margin: 30px auto;
+}
+
+.column_8 .data{
+    width: 25%;
+    float: left;
+}
+
+.column_8 .data h1{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.column_8 .data h1::after{
+    content: "+";
+    font-weight: lighter;
+}
+
+.column_8 .data p{
+    font-size: 10px;
+}
+
+.data_icon{
+    height: 25px;
+    width: auto;
+}
+
+
+
+
+
+/* /2nd bg_blue pannel */
