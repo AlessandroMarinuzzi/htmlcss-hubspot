@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     color: #3b5062;
 }
 
@@ -77,7 +78,7 @@ i.fa-chevron-down:not(:last-child){
 p{
     font-size: 13px;
     line-height: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 15px;
 }
 /* /Utility classes */
@@ -112,10 +113,11 @@ span+a{
 }
 
 a.empty_button{
-    padding: 0.6rem;
+    padding: 0.5rem 0.3rem;
     border: 1px solid #fe775a;
     border-radius: 5px;
-    color:#fe775a
+    color:#fe775a;
+    background-color: white;
 }
 
 .solid.button{
@@ -178,7 +180,7 @@ a.empty_button{
 
 .jumbotron .box a{
     margin-left: 0%;
-    padding: 1.5rem;
+    padding: 1rem 2rem;
     font-size: 13px;
 }
 
@@ -222,6 +224,7 @@ ____________________________________________________________ */
 }
 /* /Rubik Section */
 
+/* Float Structure Grey Pannel */
 .banner{
     background-color: white;
     width: 100%;
@@ -236,7 +239,52 @@ ____________________________________________________________ */
     width: calc(94%/3);
     float: left;
     margin: 1%;
-    padding: 10px;
+    
 }
-/* Margine destro trovare soluzione */
 
+.column_3:last-child{      /* Margine destro trovare soluzione */
+margin-right: 0px;
+}
+/* /Float Structure Grey Pannel */
+
+/* First Card */
+
+/* First Card Left Side */
+.card_box{
+    float: left;
+    width: 35%;
+}
+
+.card_pic{
+    width: 35%;
+    margin: 40px auto 20px;
+    display: block;
+}
+
+.card_box a.solid.button{
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+/* /First Card Left Side */
+
+/* First Card Right Side */
+.text_box{
+    float: left;
+    width: 65%;
+    padding: 40px;
+}
+
+.text_box .voice{
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.text_box h3:first-child{
+    margin-bottom: 30px;
+}
+/* /First Card Right Side */
+
+
+/* /First Card */
