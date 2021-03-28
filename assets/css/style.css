@@ -428,6 +428,28 @@ section.pannel_blue{
 /* /2nd bg_blue pannel */
 
 /* 3rd bg_white pannel */
+section.pannel_white{
+    background-color: white;
+    padding: 50px;
+    height:650px;
+}
+
+.left_page{
+    width: 45%;
+   
+}
+
+section.pannel_white .number{
+    width: 200px;
+    margin: auto;
+}
+
+section.pannel_white .number h1{
+    font-size: 30px;
+}
+    
+
+
 
 
 /* /3rd bg_white pannel */
