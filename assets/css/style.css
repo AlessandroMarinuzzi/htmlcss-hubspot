@@ -537,8 +537,17 @@ ____________________________________________________________ */
 .site_footer .column_4 a.solid.button{
     background-color: #dbdfe1;
     color: #32495b;
-    line-height: 60px;
+    line-height: 70px;
 }
+
+.column_4 li.social_media a{
+    margin-right: 25px;
+}
+
+.column_4 li.social_media i.fab{
+    font-size: 15px;
+}
+
 
 
 
