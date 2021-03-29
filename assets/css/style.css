@@ -10,23 +10,6 @@ body{
     color: #3b5062;
 }
 
-/* Debug Rules */
-.dbg header{
-    height: 750px;
-    /* background-color: aquamarine; */
-}
-
-/* .dbg main{
-    height: 1800px;
-    background-color: #f4f9fd;
-} */
-
-.dbg footer{
-    height:600px;
-    background-color: #32495b;
-}
-/* /Debug Rules */
-
 /* Utility classes */
 .clearfix{
     content: "";
@@ -55,8 +38,6 @@ a{
     margin: auto 10px;
     line-height: 75px;
     font-size: 13px;
-    
-
 }
 
 i{
@@ -111,7 +92,7 @@ ___________________________________________________ */
     font-weight: 600;
 }
 
-.first a.language{
+.first a.choose_lang{
     margin:auto 0;
 }
 span+a{
@@ -134,6 +115,11 @@ a.empty_button{
     background-color: white;
 }
 
+a.empty_button:hover{
+    color: white;
+    background-color: #fe775a;
+}
+
 .solid.button{
     padding: 0.6rem;
     margin-right: 0;
@@ -141,6 +127,10 @@ a.empty_button{
     border-radius: 5px;
     background-color: #fe775a;
     color: white;
+}
+
+.solid.button:hover{
+    background-color: rgba(24, 24, 20, 0.7);
 }
 /* /first nav bar */
 .site_header hr{
@@ -360,7 +350,7 @@ span.voice{
 .column_3 .compact span{
     display: block;
     padding-left: 10px;
-   
+
 }
 
 .compact{
@@ -382,7 +372,6 @@ section.pannel_blue{
     background: linear-gradient(#00AAB7, #00BBA6);
     text-align: center;
     padding-top: 50px;
-    
 }
 
 .pannel_blue .container h2{
@@ -484,14 +473,15 @@ section.pannel_white a.solid.button{
 
 .brand_box{
     margin-top: 50px;
+    padding: 20px;
 }
 
 
 .brand{
-    height:15px;
-    width: 17%;
-    margin: 2%;
+    width: 19%;
+    margin: 3%;
     float: left;
+    
 }
 
 img.girl{
@@ -512,15 +502,18 @@ ____________________________________________________________ */
 /* ________________________________________________________
 FOOTER
 ____________________________________________________________ */
+footer{
+    background-color: #32495b;
+}
+
 .site_footer .column_4{
     width: 25%;
     float: left;
     margin: auto;
 }
 
-.list_container{
-    width: 80%;
-    margin: auto;
+.site_footer .container:first-child{
+    border-bottom: 1px solid white;
 }
 
 .site_footer .column_4 h5{
@@ -528,7 +521,7 @@ ____________________________________________________________ */
     color: white;
 }
 
-.site_footer .column_4 a{
+.site_footer a{
     line-height: 40px;
     margin-left: 0;
     color: white;
@@ -539,6 +532,11 @@ ____________________________________________________________ */
     color: #32495b;
     line-height: 70px;
 }
+.site_footer .column_4 a.solid.button:hover{
+    background-color:#32495b ;
+    color: white;
+}
+
 
 .column_4 li.social_media a{
     margin-right: 25px;
@@ -546,14 +544,32 @@ ____________________________________________________________ */
 
 .column_4 li.social_media i.fab{
     font-size: 15px;
+    margin-bottom: 60px;
 }
 
+.site_footer .translation{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
 
+.site_footer .language{
+    margin:auto 15px;
+}
 
+.site_footer .column_2{
+    line-height: 10px;
+    margin-top: 30px;
+}
 
+.site_footer .column_2 p{
+    color: white;
+    margin: 0;
+}
 
-
-
+.site_footer .column_2.right{
+    text-align: right;
+}
 
 /* ________________________________________________________
 /FOOTER
