@@ -471,25 +471,26 @@ section.pannel_white a.solid.button{
     width: 60%;
     float: left;
     position: relative;
+    padding-bottom: 50px;
 }  
 
 .brand_box{
     margin-top: 50px;
-    padding: 20px;
+    height: 160px;
+    line-height: 80px;
     
 }
 
 .brand{
     width: 19%;
-    margin: 3%;
-    float: left;
-    display: block;
+    margin: 2%;
+    vertical-align: middle;
 }
 
 img.girl{
     height: 300px;
     position: absolute;
-    top: 250px;
+    top: 230px;
     right: 50px;
 }
 /* /Right page */
@@ -506,6 +507,7 @@ FOOTER
 ____________________________________________________________ */
 footer{
     background-color: #32495b;
+    padding-bottom: 50px;
 }
 
 .site_footer .column_4{
@@ -546,7 +548,7 @@ footer{
 
 .column_4 li.social_media i.fab{
     font-size: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .site_footer .translation{
