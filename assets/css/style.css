@@ -371,11 +371,11 @@ section.pannel_blue{
     color: white;
     background: linear-gradient(#00AAB7, #00BBA6);
     text-align: center;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 .pannel_blue .container h2{
-    margin: 50px;
+    margin: 40px;
     margin-bottom: 20px;
     margin-top: 0;
 }
@@ -385,7 +385,9 @@ section.pannel_blue{
 }
 
 .column_8.container.clearfix{
-    padding: 80px;
+    margin-top: 20px;
+    padding: 50px;
+    padding-bottom: 0;
 }
 
 .column_8 .data{
@@ -474,14 +476,14 @@ section.pannel_white a.solid.button{
 .brand_box{
     margin-top: 50px;
     padding: 20px;
+    
 }
-
 
 .brand{
     width: 19%;
     margin: 3%;
     float: left;
-    
+    display: block;
 }
 
 img.girl{
